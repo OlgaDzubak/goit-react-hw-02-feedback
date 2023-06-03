@@ -12,6 +12,7 @@
         font-size: 25px;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
         background-color: rgb(250, 237, 184);
+        cursor: pointer;
 }
 .feedback_div .feedback_btn:hover,
 .feedback_div .feedback_btn:focus{
