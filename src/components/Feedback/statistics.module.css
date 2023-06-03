@@ -1,0 +1,11 @@
+.statistics_div{
+    width: 200px;
+    color: rgb(98, 98, 98);
+}
+.statistics_div .stat_p{
+    font-size: 14px;
+}
+.statistics_div .stat_total_div{
+    margin-top: 5px;
+    border-top: 1px solid black;
+}

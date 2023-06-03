@@ -1,0 +1,19 @@
+.feedback_div {
+    padding: 50px;    
+    display: flex;
+    gap: 30px;
+    background-color:rgb(143, 168, 245);
+    border: 1px solid black;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.35);
+}
+.feedback_div .feedback_btn {
+        width: 120px;
+        height: 50px;
+        font-size: 25px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+        background-color: rgb(250, 237, 184);
+}
+.feedback_div .feedback_btn:hover,
+.feedback_div .feedback_btn:focus{
+    background-color: rgb(229, 208, 124);
+}
