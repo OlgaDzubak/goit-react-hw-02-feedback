@@ -21,6 +21,7 @@ export class Statistics extends Component {
     }
     render (){
         const {good, neutral, bad, total, positive_percentage} = this.props;
+        console.log("this.props = ", this.props);
         return ( total === 0 ? <Notification  message="There is no feedback"/> : (
                             <div className={css.statistics_div}>
                                 <p className={css.stat_p}>Good : {good}</p>
@@ -32,6 +33,7 @@ export class Statistics extends Component {
                                 </div>
                             </div>
                             )
+                        
         )
     }
 }
